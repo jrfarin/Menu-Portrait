@@ -1,10 +1,16 @@
 <!doctype html>
 <html lang="es">
-
 <head>
     <title>Portrait Recipes</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <link rel="icon" sizes="32x32 48x48" type="image/png" href="./img/icons/favicon.png" />
+
+    <!-- Añadido para PWA -->
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/prawn192.png">
+    <link rel="manifest" href="./manifest.json" />
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link href="./css/main.css" rel="stylesheet">
 </head>
@@ -12,9 +18,6 @@
 <body>
     <div class="contenedor">
         <div class="content">
-            <!-- <img src="./img/1024/Caprese.webp" class="img-fluid" alt="Ensalada Caprese"> -->
-            <!-- <img src="./img/Brochette.jpg" class="img-fluid" alt="Ensalada Caprese"> -->
-
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -27,12 +30,6 @@
                         <picture>
                             <source media="(min-width: 1400px)" srcset="./img/Macarrones.webp, ./img/Macarrones.jpg">
                             <img srcset="./img/1024/Macarrones.webp, ./img/1024/Macarrones.jpg" class="img-fluid"  alt="" loading="lazy">
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source media="(min-width: 1400px)" srcset="./img/Gazpacho.webp, ./img/Gazpacho.jpg">
-                            <img srcset="./img/1024/Gazpacho.webp, ./img/1024/Gazpacho.jpg" class="img-fluid"  alt="" loading="lazy">
                         </picture>
                     </div>
                     <div class="swiper-slide">
@@ -51,24 +48,6 @@
                         <picture>
                             <source media="(min-width: 1400px)" srcset="./img/Brochette.webp, ./img/Brochette.jpg">
                             <img srcset="./img/1024/Brochette.webp, ./img/1024/Brochette.jpg" class="img-fluid"  alt="" loading="lazy">
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source media="(min-width: 1400px)" srcset="./img/SopaMelon.webp, ./img/SopaMelon.jpg">
-                            <img srcset="./img/1024/SopaMelon.webp, ./img/1024/SopaMelon.jpg" class="img-fluid"  alt="" loading="lazy">
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source media="(min-width: 1400px)" srcset="./img/Pasta.webp, ./img/Pasta.jpg">
-                            <img srcset="./img/1024/Pasta.webp, ./img/1024/Pasta.jpg" class="img-fluid"  alt="" loading="lazy">
-                        </picture>
-                    </div>
-                    <div class="swiper-slide">
-                        <picture>
-                            <source media="(min-width: 1400px)" srcset="./img/Patatas.webp, ./img/Patatas.jpg">
-                            <img srcset="./img/1024/Patatas.webp, ./img/1024/Patatas.jpg" class="img-fluid"  alt="" loading="lazy">
                         </picture>
                     </div>
                     <div class="swiper-slide">
@@ -92,6 +71,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./js/app.js"></script>
+    <script src="./js/regist_serviceWorker.js"></script>
 
 </body>
 
