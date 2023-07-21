@@ -1,10 +1,10 @@
 {
     "name": "Show Menu PWA",
-    "short_name": "show-menu",
+    "short_name": "Show Menu",
     "theme_color": "#000",
     "background_color": "#fff",
     "display": "standalone",
-    "orientation": "landscape",
+    "orientation": "any",
     "scope": "/",
     "start_url": "/",
     "icons": [
