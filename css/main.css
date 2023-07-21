@@ -31,8 +31,19 @@ body {
     }
     .contenedor > .content {
         width: 33.85%;
-        height: 58.5%;
         left: 42.25%;
         top: 11.5%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        background-image: url('../img/360/marco.jpg');
+        background-position: center;
+    }
+    .contenedor > .content {
+        width: 90%;
+        left: 5%;
+        top:7%;
     }
 }
