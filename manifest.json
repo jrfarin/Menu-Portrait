@@ -1,0 +1,10 @@
+{  
+    "name": "Show Menu Portrait",  
+    "short_name": "show-menu",  
+    "theme_color": "#ededed",  
+    "background_color": "#fff",  
+    "display": "standalone",  
+    "orientation": "landscape",  
+    "scope": "/",  
+    "start_url": "/?source=pwa/"
+}
