@@ -1,5 +1,5 @@
 const swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
+    spaceBetween: 15,
     loop: true,
     centeredSlides: true,
     autoplay: {
